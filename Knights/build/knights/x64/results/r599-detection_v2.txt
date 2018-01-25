@@ -1,0 +1,4 @@
+C:\Users\vivek\Desktop\V\UMich\S3 - Fall 2017\ROB 599\Project\Perception_v2\deploy\test\0815cc1e-9a0c-4875-a5ca-784ef1a32bba__0000_image.jpg, 21, 824, 390, 73, 46, 1.079604
+C:\Users\vivek\Desktop\V\UMich\S3 - Fall 2017\ROB 599\Project\Perception_v2\deploy\test\0815cc1e-9a0c-4875-a5ca-784ef1a32bba__0000_image.jpg, 6, 1122, 388, 81, 45, 2.563530
+C:\Users\vivek\Desktop\V\UMich\S3 - Fall 2017\ROB 599\Project\Perception_v2\deploy\test\0815cc1e-9a0c-4875-a5ca-784ef1a32bba__0000_image.jpg, 6, 1264, 383, 72, 41, 1.649656
+C:\Users\vivek\Desktop\V\UMich\S3 - Fall 2017\ROB 599\Project\Perception_v2\deploy\test\0815cc1e-9a0c-4875-a5ca-784ef1a32bba__0000_image.jpg, 6, 1432, 395, 155, 60, 75.032173
