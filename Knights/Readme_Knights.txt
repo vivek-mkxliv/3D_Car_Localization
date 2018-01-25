@@ -1,0 +1,1 @@
+This folder contains the C code and include files required for the VisualStudio Project insisde ./build/knights/
