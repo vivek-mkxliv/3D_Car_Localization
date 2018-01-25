@@ -1,0 +1,1 @@
+knights.exe detector valid data/obj.data cfg/yolo-6k.cfg backup/yolo-6k_204000.weights -thresh 0.01

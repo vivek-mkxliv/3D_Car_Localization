@@ -1,0 +1,1 @@
+knights.exe detector train data/obj.data cfg/yolo-6k.cfg backup/yolo-bv_final.weights

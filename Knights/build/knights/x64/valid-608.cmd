@@ -1,0 +1,1 @@
+knights.exe detector valid data/obj.data cfg/yolo-608.cfg backup/yolo_flux_608_150000.weights -thresh 0.01

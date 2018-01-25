@@ -1,0 +1,1 @@
+knights.exe detector test data/obj.data cfg/yolo-6k.cfg backup/yolo-6k_204000.weights "C:\Users\vivek\Desktop\V\UMich\S3 - Fall 2017\ROB 599\Project\Perception_v2\deploy\trainval\4ad99d1b-8966-4732-8772-f4363ebf2611\0000_image.jpg" -thresh 0.25

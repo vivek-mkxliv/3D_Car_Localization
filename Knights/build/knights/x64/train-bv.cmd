@@ -1,0 +1,1 @@
+knights.exe detector train data/bv.data cfg/yolo-bv.cfg yolo_final.weights

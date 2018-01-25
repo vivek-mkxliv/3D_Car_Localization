@@ -1,0 +1,1 @@
+knights.exe detector test data/obj.data cfg/yolo-608.cfg backup/yolo_flux_608_150000.weights "C:\Users\vivek\Desktop\V\UMich\S3 - Fall 2017\ROB 599\Project\Perception_v2\deploy\test\0815cc1e-9a0c-4875-a5ca-784ef1a32bba\0043_image.jpg" -thresh 0.25
