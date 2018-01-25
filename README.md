@@ -1,27 +1,22 @@
-3D_Car_Localization
+# 3D_Car_Localization
+	Course	: ROB 599 - Self Driving Vehicles
+	Term	: Fall 2017
+	Project	: Final_Perception
+	Team	: Team 2 - Knights Who Say Ni (a.k.a. Knights)
 
-==================================================================================================
-==================================================================================================
-Course	: ROB 599 - Self Driving Vehicles
-Term	: Fall 2017
-Project	: Final_Perception
-Team	: Team 2 - Knights Who Say Ni (a.k.a. Knights)
-==================================================================================================
-==================================================================================================
 
-Readme.txt
-==================================================================================================
-Contents :
+
+## Contents :
 	1. Preparing the datasets
 		a. 200k Dataset
 		b. Deploy
 	2. Knights - the executable file
 	3. Create 3D_bboxes from 2D_data
 	4. Evaluation script
-==================================================================================================
 
-==================================================================================================
-SOFTWARES AND TOOLS USED
+
+
+## SOFTWARES AND TOOLS USED
 	1. Platform (OS): Windows 10
 	2. IDE		: Windows MS Visual Studio 2015 (v140)
 	3. Python	: v3.5.2
@@ -31,10 +26,10 @@ SOFTWARES AND TOOLS USED
 	7. cuDNN	: 7
 	8. System Specs	: Alienware 15R3; intel i7; RAM 16GB DDR4; NVIDIA GeForce GTX1060 8GB
 	9. Link to our weight files : https://drive.google.com/drive/folders/1H_DIBL8LYv3ZVZi1XpSa7QmZPUl5I_sg?usp=sharing
-==================================================================================================
 
-==================================================================================================
-.zip file contains:
+
+
+## .zip file contains:
 	./3dbbox
 	./200k dataset - DROP Lab
 	./deploy
@@ -42,12 +37,12 @@ SOFTWARES AND TOOLS USED
 	./Knights
 	Readme.txt
 	ROB599_Team2_Knights.pdf
-==================================================================================================
 
-P.S. : Windows was not able to read relative paths, so please change the paths to all the lines as specified in the respective python codes below (i.e., full paths).
 
-==================================================================================================
-1. PREPARING THE DATASETS
+*P.S. : Windows was not able to read relative paths, so please change the paths to all the lines as specified in the respective python codes below (i.e., full paths).*
+
+
+### 1. PREPARING THE DATASETS
 	We used two datasets for the training process.
 		i.  Dataset from DROP Lab - Driving in the Matrix - repro_200k. (will be referred to as 200k)
 		    Download links available at : "https://fcav.engin.umich.edu/sim-dataset"
@@ -99,9 +94,9 @@ P.S. : Windows was not able to read relative paths, so please change the paths t
 
 	(We included the "test.txt", "train6k.txt", and "train200k.txt" files in the .zip so that you can see the structure of these files. But they have to be re-generated because the paths will be different.)	
 
-==================================================================================================
 
-2. KNIGHTS
+
+### 2. KNIGHTS
 	The training procedure is specified in the pdf. (Refer to pdf about the 3 networks).
 
 	Download link to the final weight files for the 3 networks we trained : https://drive.google.com/drive/folders/1H_DIBL8LYv3ZVZi1XpSa7QmZPUl5I_sg?usp=sharing
@@ -164,9 +159,9 @@ P.S. : Windows was not able to read relative paths, so please change the paths t
 		path/to/testimages/guid_*.jpg, class id, x, y, w, h, conf
 		where the values of x, y, w, h are in pixels. conf is in percentage.
 
-==================================================================================================
 
-3. CREATE 3D_BBOXES FROM 2D_DATA	
+
+### 3. CREATE 3D_BBOXES FROM 2D_DATA	
 	Python codes required:
 		./Team 2 - Knights/3dbbox/3D_bounding_box.py
 		./Team 2 - Knights/3dbbox/3d_support_script.py
@@ -186,9 +181,9 @@ P.S. : Windows was not able to read relative paths, so please change the paths t
 		where the values of x, y, z, l, w, h are in meters. conf is in percentage.
 		(An example of "r599-detection-3d-bbox.txt" file is included in the .zip, but it will have to be regenerated because of the change in paths)
 
-==================================================================================================
 
-4. EVALUATION
+
+### 4. EVALUATION
 	Python codes required:
 		./Team 2 - Knights/eval/eval_script.py
 
