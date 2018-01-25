@@ -1,0 +1,1 @@
+This folder contains the .py code to create 3D bounding boxes, for each detection from ./Knights/build/knights/x64/results/r599-detection.txt file generated after running the "valid-*.cmd" from ./Knights/build/knights/x64/ folder.
