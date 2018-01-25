@@ -1,0 +1,6 @@
+classes= 1
+train  = data/train200k.txt
+valid  = data/test.txt
+names = data/bv.names
+backup = backup/
+eval = r599
