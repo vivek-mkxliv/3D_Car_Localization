@@ -39,7 +39,7 @@
 	ROB599_Team2_Knights.pdf
 
 
-*P.S. : Windows was not able to read relative paths, so please change the paths to all the lines as specified in the respective python codes below (i.e., full paths).*
+*P.S. : To run the code, change the paths to all the lines as specified in the respective python codes below.*
 
 
 ### 1. PREPARING THE DATASETS
@@ -192,6 +192,4 @@
 		Change the path in line 72 to the full path that specifies "./Team 2 - Knights/eval/" folder.
 		Only one aspect of the path of the image is changed. Everything else remains the same.
 		This code gives a new text file by the name "final_result_3d.txt", that gives us the final result (the text file that we uploaded to kaggle)
-		(An example of "final_result_3d.txt" file is included in the .zip, but it will have to be regenerated because of the change in paths)
-
-==================================================================================================
+		(An example of "final_result_3d.txt" file is included in the .zip, but it will have to be regenerated because of the change of paths)
